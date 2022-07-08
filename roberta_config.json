@@ -1,0 +1,30 @@
+{
+    "experiment_name":"Roberta_ZH",
+
+    "dataset": {
+        "data_path" : "FILL TRAINING/VAL/TEST DATA DIR HERE",
+        "num_labels": 2,
+        "infer_data_path": "FILL INFERENCE DATA PATH HERE"
+        },
+
+    "experiment": {
+        "LABEL_ALL_SUBTOKENS" : true,
+        "batch_size" : 8,
+        "num_workers" : 2,
+        "max_length" : 510,
+        "LOAD_TOKENS_FROM" : "NONE",
+        "num_epochs" : 15,
+        "learning_rate" : 1e-6
+        },
+
+    "model_load": {
+        "LOAD_TOKENS_FROM" : "NONE",
+        "LOAD_MODEL_FROM" : "NONE",
+        "VER" : 0
+        },
+    
+    "model": {
+        "transformer_name" : "hfl/chinese-roberta-wwm-ext",   
+        "max_grad_norm" : 10
+    }
+}
