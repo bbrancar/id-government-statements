@@ -1,6 +1,6 @@
 # Identifying Government Statements
 ---
-This repo contains a Colab notebook and accompanying `.py` and `.json` files containing a PyTorch implementation of the  `hfl/chinese-roberta-wwm-ext` transformer for Chinese text classification. The model was employed to identify Chinese news articles directly covering government meetings and official statements. Using a training set of 500 articles, a validation set of 200 articles, and a test set of 200 articles, the transformer achieved an F1-score of over 94%. 
+This repo contains a Colab notebook and accompanying `.py` and `.json` files containing a PyTorch implementation of the  `hfl/chinese-roberta-wwm-ext` transformer for Chinese text classification. The model was employed to identify Chinese news articles directly covering government meetings and official statements. Using a training set of 500 articles, a validation set of 200 articles, and a test set of 200 articles, the transformer achieved an F1-score of over 94% on held-out data. 
 
 # Repurposing Code
 ---
